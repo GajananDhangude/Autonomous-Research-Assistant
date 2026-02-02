@@ -1,0 +1,16 @@
+fastapi
+uvicorn
+python-dotenv
+langchain
+langgraph
+langchain-community
+chromadb
+langchain-ollama
+sentence-transformers
+pypdf
+requests
+beautifulsoup4
+langchain-huggingface
+firecrawl
+redis
+langgraph-checkpoint-redis
