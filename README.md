@@ -142,27 +142,6 @@ Agentic AI systems represent autonomous agents capable of...
 - Tool-use capabilities are improving rapidly
 - Integration with LangGraph and similar frameworks
 
-## Details
-[Detailed analysis of findings]
-
-## Sources
-- https://source1.com
-- https://source2.com
-```
-
-## 🐛 Troubleshooting
-
-### Common Issues
-
-#### Infinite Loop / Recursion Error
-**Problem**: Agent keeps calling search_web repeatedly
-
-**Solution**: Use the phase-based approach
-```bash
-cp ALTERNATIVE_nodes.py app/agents/nodes.py
-cp BETTER_FIX_states.py app/agents/states.py
-```
-
 
 ## 🔐 Security Best Practices
 
