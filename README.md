@@ -163,39 +163,6 @@ cp ALTERNATIVE_nodes.py app/agents/nodes.py
 cp BETTER_FIX_states.py app/agents/states.py
 ```
 
-#### Firecrawl API Error
-**Problem**: `UnauthorizedError: Invalid token`
-
-**Solution**: Update your Firecrawl API key or use the fallback scraper
-```bash
-cp CRITICAL_FIX_tools.py app/agents/tools.py
-pip install beautifulsoup4 requests lxml
-```
-
-#### web_scrape Not Being Called
-**Problem**: Only search_web is called, not scrap_web
-
-**Solution**: Implement phase-based research
-```bash
-cp ALTERNATIVE_nodes.py app/agents/nodes.py
-cp BETTER_FIX_states.py app/agents/states.py
-```
-
-#### Redis Connection Failed
-**Problem**: Can't connect to Redis
-
-**Solution**: 
-```bash
-# Check if Redis is running
-redis-cli ping  # Should return PONG
-
-# Start Redis
-docker start redis-research
-# or
-brew services start redis  # macOS
-sudo systemctl start redis-server  # Linux
-```
-
 
 ## 🔐 Security Best Practices
 
